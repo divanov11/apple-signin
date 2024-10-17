@@ -1,5 +1,6 @@
 import "./style.css";
 import { account } from "./appwrite";
+import { OAuthProvider } from "appwrite";
 
 const app = document.getElementById("app");
 const loginBtn = document.getElementById("btn-siwa");
@@ -7,7 +8,7 @@ const loginBtn = document.getElementById("btn-siwa");
 const loginSIWA = async () => {
 
     await account.createOAuth2Session(
-        "apple",
+        OAuthProvider.Apple,
         "http://localhost:5173/#success",
         "http://localhost:5173/#fail"
     );
