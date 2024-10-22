@@ -8,7 +8,7 @@ const loginBtn = document.getElementById("btn-siwa");
 const loginSIWA = async () => {
 
     await account.createOAuth2Session(
-        OAuthProvider.Apple,
+        OAuthProvider.Google,
         "http://localhost:5173/#success",
         "http://localhost:5173/#fail"
     );
