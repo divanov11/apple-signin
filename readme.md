@@ -1,4 +1,4 @@
-# Sign in with Apple
+# Sign in with Google
 
 Basic sign in with apple demo with video tutorial.
 
