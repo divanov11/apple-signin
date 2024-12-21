@@ -1,8 +1,8 @@
 import "./style.css";
 
 const app = document.getElementById("app");
-const loginBtn = document.getElementById("btn-siwa");
+const loginBtn = document.getElementById("btn-siwg");
 
-const loginSIWA = async () => {};
+const loginSIWG = async () => {};
 
-loginBtn.addEventListener("click", loginSIWA);
+loginBtn.addEventListener("click", loginSIWG);
